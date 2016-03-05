@@ -70,6 +70,6 @@ test('from an organization repo', t => {
     repo: 'community'
   }).then(result => {
     t.pass()
-    t.true(result.indexOf('RichardLitt') !== -1, 'RichardLitt is in issue creators')
+    t.true(result.indexOf('RichardLitt') !== -1, 'RichardLitt is in PR creators')
   })
 })

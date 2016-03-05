@@ -1,0 +1,65 @@
+{
+  "name": "get-github-pr-creators",
+  "version": "0.0.0",
+  "description": "Get a list of GitHub PR creators from an organization or repo",
+  "license": "MIT",
+  "repository": "RichardLitt/get-github-pr-creators",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "burntfen.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "issues",
+    "contributors",
+    "contrib",
+    "contribs",
+    "issue",
+    "user",
+    "api",
+    "users",
+    "creators",
+    "create"
+  ],
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "depaginate": "0.0.4",
+    "get-github-user": "0.0.2",
+    "ghauth": "^3.2.0",
+    "gitconfiglocal": "^2.0.1",
+    "lodash": "^4.0.0",
+    "meow": "^3.7.0",
+    "moment": "^2.11.1",
+    "octokat": "^0.4.15",
+    "pify": "^2.3.0",
+    "sort-alphabetic": "0.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "ava": "^0.10.0"
+  },
+  "standard": {
+    "ignore": [
+      "test.js"
+    ]
+  },
+  "coordinates": [
+    42.38910509999999,
+    -71.1200956
+  ]
+}

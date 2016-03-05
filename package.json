@@ -1,6 +1,6 @@
 {
   "name": "get-github-pr-creators",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get a list of GitHub PR creators from an organization or repo",
   "license": "MIT",
   "repository": "RichardLitt/get-github-pr-creators",
@@ -59,7 +59,7 @@
     ]
   },
   "coordinates": [
-    42.38910509999999,
-    -71.1200956
+    42.3803274,
+    -71.13891009999999
   ]
 }

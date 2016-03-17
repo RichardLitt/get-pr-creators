@@ -52,14 +52,16 @@ module.exports = function (org, flags, token) {
   })
   .then(_.flatten.bind(_))
   .filter((response) => {
-    if (flags.since && flags.until && moment(response.updatedAt).isBetween(flags.since, flags.until)) {
-      return response
-    } else if (flags.since && !flags.until && moment(response.updatedAt).isAfter(flags.since)) {
-      return response
-    } else if (!flags.since && flags.until && moment(response.updatedAt).isBefore(flags.until)) {
-      return response
-    } else if (!flags.since && !flags.until) {
-      return response
+    if (response) {
+      if (flags.since && flags.until && moment(response.updatedAt).isBetween(flags.since, flags.until)) {
+        return response
+      } else if (flags.since && !flags.until && moment(response.updatedAt).isAfter(flags.since)) {
+        return response
+      } else if (!flags.since && flags.until && moment(response.updatedAt).isBefore(flags.until)) {
+        return response
+      } else if (!flags.since && !flags.until) {
+        return response
+      }
     }
   })
   .map((response) => {

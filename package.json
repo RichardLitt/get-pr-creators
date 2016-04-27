@@ -37,21 +37,21 @@
     "create"
   ],
   "dependencies": {
-    "bluebird": "^3.3.4",
+    "bluebird": "^3.3.5",
     "depaginate": "0.0.7",
     "get-github-user": "0.0.4",
     "ghauth": "^3.2.0",
     "gitconfiglocal": "^2.0.1",
-    "lodash": "^4.6.1",
+    "lodash": "^4.11.1",
     "meow": "^3.7.0",
-    "moment": "^2.12.0",
-    "octokat": "^0.4.17",
+    "moment": "^2.13.0",
+    "octokat": "^0.5.0-beta",
     "pify": "^2.3.0",
     "sort-alphabetic": "0.0.0"
   },
   "devDependencies": {
     "standard": "^6.0.8",
-    "ava": "^0.13.0"
+    "ava": "^0.14.0"
   },
   "standard": {
     "ignore": [

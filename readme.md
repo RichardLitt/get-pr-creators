@@ -1,5 +1,7 @@
 # get-github-pr-creators [![Build Status](https://travis-ci.org/RichardLitt/get-github-pr-creators.svg?branch=master)](https://travis-ci.org/RichardLitt/get-github-pr-creators)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/get-pr-creators.svg)](https://greenkeeper.io/)
+
 > Get a list of GitHub PR creators from an organization or repo
 
 

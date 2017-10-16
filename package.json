@@ -61,5 +61,14 @@
   "coordinates": [
     41.14735779999999,
     -8.6158331
+  ],
+  "homepage": "https://github.com/RichardLitt/get-pr-creators",
+  "bugs": "https://github.com/RichardLitt/get-pr-creators/issues",
+  "contributors": [
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com",
+      "url": "burntfen.com"
+    }
   ]
 }

@@ -22,19 +22,19 @@
     "cli.js"
   ],
   "keywords": [
-    "cli-app",
+    "api",
     "cli",
-    "github",
-    "issues",
-    "contributors",
+    "cli-app",
     "contrib",
     "contribs",
-    "issue",
-    "user",
-    "api",
-    "users",
+    "contributors",
+    "create",
     "creators",
-    "create"
+    "github",
+    "issue",
+    "issues",
+    "user",
+    "users"
   ],
   "dependencies": {
     "bluebird": "^3.3.5",

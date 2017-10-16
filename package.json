@@ -22,19 +22,19 @@
     "cli.js"
   ],
   "keywords": [
-    "cli-app",
+    "api",
     "cli",
-    "github",
-    "issues",
-    "contributors",
+    "cli-app",
     "contrib",
     "contribs",
-    "issue",
-    "user",
-    "api",
-    "users",
+    "contributors",
+    "create",
     "creators",
-    "create"
+    "github",
+    "issue",
+    "issues",
+    "user",
+    "users"
   ],
   "dependencies": {
     "bluebird": "^3.3.5",
@@ -61,5 +61,14 @@
   "coordinates": [
     41.14735779999999,
     -8.6158331
+  ],
+  "homepage": "https://github.com/RichardLitt/get-pr-creators",
+  "bugs": "https://github.com/RichardLitt/get-pr-creators/issues",
+  "contributors": [
+    {
+      "name": "Richard Littauer",
+      "email": "richard.littauer@gmail.com",
+      "url": "burntfen.com"
+    }
   ]
 }
